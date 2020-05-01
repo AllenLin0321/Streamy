@@ -7,9 +7,7 @@ import {
   EDIT_STREAM,
 } from '../actions/types';
 
-const initialState = {
-  streams: {},
-};
+const initialState = {};
 
 export default (state = initialState, { type, payload }) => {
   switch (type) {
